@@ -30,9 +30,11 @@ git diff
 git show
 //to push
 git remote add origin (github repo)
-//to remove origin
-git remove origin
+
 git push origin main
 //to pull
-git pull origin
+git pull origin 
+
+//to remove origin
+git remove origin
 
