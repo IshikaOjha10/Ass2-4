@@ -5,9 +5,9 @@ git config --list
 //step 2 
 git init
 //step 3
-git clone url
+git clone (github_repo)
 //step 4
-git remote add url
+git remote add (github_repo)
 //step 5 for staging
 echo "msg">file.txt
 git add file.txt
@@ -29,7 +29,9 @@ git log
 git diff
 git show
 //to push
-git remote add origin url
+git remote add origin (github repo)
+//to remove origin
+git remove origin
 git push origin main
 //to pull
 git pull origin
